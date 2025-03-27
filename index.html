@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icones com o font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Arquiteto Manoel Serra</title>
+  </head>
+  <body>
+    <main id="content">
+      <section id="cta">
+        <div id="cta_high">
+          <img id="cta_logo" src="/src/images/logo.png" alt="" />
+          <h2>
+            Construindo muito <br />mais que uma casa. <br />
+            <span>O seu lar.</span>
+          </h2>
+        </div>
+        <div id="cta_line"></div>
+        <div id="cta_low">
+          <a href="portfolio.html">
+            <button id="cta_btn">Ver Portfólio</button></a
+          >
+          <p>
+            Arquiteto especializado em residências de alto padrão
+          </p>
+        </div>
+      </section>
+
+      <section id="featured">
+        <h2 class="title-default">Projetos<br />em Destaque</h2>
+        <div class="line-default"></div>
+
+        <div id="featured_low">
+          <div id="featured_low_secondary">
+            <div class="swiper mySwiper1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="featured-projects">
+                    <img src="/src/images/img1.jpg" alt="" />
+                    <button
+                      onclick="window.location.href = 'projects.html?projeto=projects_1'"
+                      class="btn-default"
+                    >
+                      Saiba Mais
+                    </button>
+                    <p>São Paulo - 2023</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="featured-projects">
+                    <img src="/src/images/img2.jpg" alt="" />
+                    <button
+                      onclick="window.location.href = 'projects.html?projeto=projects_2'"
+                      class="btn-default"
+                    >
+                      Saiba Mais
+                    </button>
+                    <p>Brasília - 2024</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="featured-projects">
+                    <img src="/src/images/img3.jpg" alt="" />
+                    <button
+                      onclick="window.location.href = 'projects.html?projeto=projects_3'"
+                      class="btn-default"
+                    >
+                      Saiba Mais
+                    </button>
+                    <p>Rio de Janeiro - 2024</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="featured-projects">
+                    <img src="/src/images/img4.jpg" alt="" />
+                    <button
+                      onclick="window.location.href = 'projects.html?projeto=projects_4'"
+                      class="btn-default"
+                    >
+                      Saiba Mais
+                    </button>
+                    <p>Espírito Santo - 2025</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2 class="title-default">Cada projeto,<br />uma assinatura</h2>
+        <div id="about_content">
+          <img src="/src/images/arquiteto.png" alt="" />
+          <div id="about_text">
+            Arquiteto paraense que encontrou em São Paulo uma paixão
+            avassaladora por transformar casas em lares únicos e
+            inesquecíveis.<br /><br />
+            Formado pela Universidade Santa Cruz do Sul e com mais de 68 cursos
+            de especialização, integra em cada projeto a sustentabilidade,
+            estilo único e a imaginação dos seus clientes.
+            <button class="btn-secondary">Entre em contato</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <h2 class="title-default">Serviços<br />Prestados</h2>
+        <div class="line-default"></div>
+
+        <div id="service_low">
+          <button class="btn-secondary">Solicite um orçamento</button>
+
+          <div id="service_low_secondary">
+            <div class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="service-projects">
+                    <img src="/src/images/img11.jpg" alt="" />
+                    <button
+                      onclick="window.location.href = 'services.html?projeto=services_1'"
+                      class="btn-default"
+                    >
+                      Saiba Mais
+                    </button>
+                    <p class="text-service">Projetos Residenciais</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="service-projects">
+                    <img src="/src/images/img10.png" alt="" />
+                    <button
+                      onclick="window.location.href = 'services.html?projeto=services_2'"
+                      class="btn-default"
+                    >
+                      Saiba Mais
+                    </button>
+                    <p class="text-service">Consultoria para reformas</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="service-projects">
+                    <img src="/src/images/img2.png" alt="" />
+                    <button
+                      onclick="window.location.href = 'services.html?projeto=services_3'"
+                      class="btn-default"
+                    >
+                      Saiba Mais
+                    </button>
+                    <p class="text-service">
+                      Aproveitamento de espaços com materias naturais
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <h2 class="title-default">
+          Portfólio <br /><span>Explore meus projetos</span>
+        </h2>
+        <div class="line-default"></div>
+
+        <div id="portfolio_low">
+          <div id="portfolio_low_secondary">
+            <div class="swiper mySwiper1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="portfolio-projects">
+                    <img src="/src/images/img5.jpg" alt="" />
+                    <button class="btn-default">
+                      Casas integradas à natureza.
+                    </button>
+                    <a href="portfolio.html#casas">Clique e conheça</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+              <div class="portfolio-projects">
+                    <img src="/src/images/img7.jpg" alt="" />
+                    <button class="btn-default">
+                      Piscinas e Hidromassagens
+                    </button>
+                    <a href="portfolio.html#piscinas">Clique e conheça</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="portfolio-projects">
+                    <img src="/src/images/img8.jpg" alt="" />
+                    <button class="btn-default">Coberturas</button>
+                    <a href="portfolio.html#coberturas">Clique e conheça</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="portfolio-projects">
+                    <img src="/src/images/img10.jpg" alt="" />
+                    <button class="btn-default">Áreas de Lazer</button>
+                    <a href="portfolio.html#areas">Clique e conheça</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="provided">
+        <div id="provided_content">
+          <div id="provided_text">
+            <h2 class="title-default">Serviços<br />Prestados</h2>
+            <p>
+              Para criar um projeto, é necessário entender os sonhos e objetivos
+              de cada cliente.<br /><br />
+              Depois, apresentar um projeto alinhado e só então afinar de acordo
+              com as possibilidades arquitetônicas.
+            </p>
+            <button class="btn-secondary">Marque uma reunião</button>
+          </div>
+        </div>
+        <div class="line-secondary"></div>
+        <div id="provided_list">
+          <li class="provided-list-item">Conversa inicial</li>
+          <li class="provided-list-item">Apresentação do <br> <span>projeto</span></li>
+          <li class="provided-list-item">Ajustes finos</li>
+          <li class="provided-list-item">Início da obra</li>
+        </div>
+      </section>
+
+      <section id="testimonials">
+        <div id="testimonials_content">
+          <div id="testimonials_left">
+            <h2 class="title-default">Depoimento<br/>de clientes</h2>
+          </div>
+          <div class="line-secondary"></div>
+          <div id="testimonials_text">
+            <div id="testimonials_list">
+              <div class="testimonials-list-item">
+                <p>
+                  "Comprei um apartamento antigo e queria colocar o máximo de
+                  personalidade nele. O Manoel me ajudou a enxergar o potencial
+                  em um projeto lindo e sustentavel."<br />
+                  <span>- Emília Tanaka</span>
+                </p>
+              </div>
+              <div class="testimonials-list-item">
+                <p>
+                  "Meu sonho era ter uma casa na fazenda feita com 100% de
+                  materiais ecológicos O Manoel fez um projeto lindo e ainda
+                  gerenciou a obra do começo ao fim."<br />
+                  <span>- Lorena Jordão </span>
+                </p>
+              </div>
+              <div class="testimonials-list-item">
+                <p>
+                  "Contratei a Consultoria de Reforma e tive uma experiência
+                  incrível."<br />
+                  <span>-Luan Pacheco </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <sections id="links">
+        <h2 class="title-default">Blog & News<br />sobre arquitetura</h2>
+        <div id="links_list">
+          <div class="links-list-items">
+            <a
+              href="https://exame.com/inovacao/projetos-de-arquitetura-sustentavel/"
+              target="_blank"
+              ><li>Novidades da Arquitetura Sustentável</li></a
+            >
+            <i class="bi bi-arrow-up-right"></i>
+          </div>
+          <div class="line-default"></div>
+
+          <div class="links-list-items">
+            <a
+              href="https://arquitetura.vivadecora.com.br/arquitetura-moderna/"
+              target="_blank"
+            >
+              <li>Arquitetura moderna: inspire-se na sua reforma</li></a
+            >
+            <i class="bi bi-arrow-up-right"></i>
+          </div>
+          <div class="line-default"></div>
+
+          <div class="links-list-items">
+            <a
+              href="https://www.archdaily.com.br/br/938759/como-aproveitar-espacos-pequenos-9-camas-dobraveis-e-de-correr"
+              target="_blank"
+            >
+              <li>
+                Como aproveitar espaços pequenos em projetos arquitetônicos?
+              </li></a
+            >
+            <i class="bi bi-arrow-up-right"></i>
+          </div>
+          <div class="line-default"></div>
+
+          <div class="links-list-items">
+            <a
+              href="https://goakiradesign.com/consultoria-de-arquitetura-o-que-e-como-funciona-e-vantagens/"
+              target="_blank"
+            >
+              <li>Benefícios de uma consultoria de arquitetura</li></a
+            >
+            <i class="bi bi-arrow-up-right"></i>
+          </div>
+          <div class="line-default"></div>
+        </div>
+      </sections>
+
+      <section id="cta_secondary">
+        <div id="cta_secondary_text">
+          <p>
+            Vamos criar <br />
+            uma parceria<br />de sucesso?
+          </p>
+          <button class="btn-default">Entre em contato</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="/src/images/footer.png" alt="" id="footer_img" />
+
+      <h2 id="footer_title">Vamos criar um<br />projeto único?</h2>
+
+      <div class="footer-texts">
+        <p>Tel: (00) 0 0000-0000</p>
+        <p>email@gmail.com</p>
+      </div>
+
+      <div class="footer-texts">
+        <h3>Horário de Funcionamento</h3>
+        <p>Segunda a sexta</p>
+        <p>Das 08h ás 17h</p>
+      </div>
+
+      <div class="footer-texts">
+        <h3>Endereço</h3>
+        <p>Travessa Rosa dos Ventos, 11, Diadema</p>
+      </div>
+
+      <div id="social_media">
+        <div id="social_media_buttons">
+          <button><i class="bi bi-facebook"></i></button>
+          <button><i class="bi bi-instagram"></i></button>
+          <button><i class="bi bi-threads"></i></button>
+        </div>
+        <p>Atendimento prioritário para pessoas com deficiência</p>
+      </div>
+    </footer>
+
+    <script src="./src/javascript/script.js"></script>
+  </body>
+</html>

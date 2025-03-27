@@ -1,0 +1,108 @@
+#page_portfolio {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  padding: 9vh 0;
+}
+
+#page_content_portfolio {
+  background-color: var(--color-neutral-0);
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.page-portfolio-slides {
+  display: flex;
+  width: 100%;
+  height: 63%;
+  align-items: end;
+  padding: 2% 0;
+}
+
+.sections-portfolio {
+  width: 95%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-around;
+  margin: 2% 0;
+  align-items: start;
+}
+
+.portfolio-slides {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+}
+
+.portfolio-slides img {
+  width: 100%;
+  height: 92%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.portfolio-slides p {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  font-size: 0.95rem;
+  color: var(--color-neutral-1);
+  text-align: start;
+}
+.portfolio-slides button {
+  position: absolute;
+  z-index: 0;
+  bottom: 13%;
+  align-self: end;
+  margin-right: 9%;
+  cursor: pointer;
+}
+
+#page_content_portfolio h2 {
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+
+#portfolio_btn {
+  background-color: var(--color-primary-3);
+  color: var(--color-neutral-0);
+  border: none;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin: 50px 0;
+}
+
+@media screen and (max-width: 900px) {
+  #featured_low {
+    justify-content: center;
+  }
+
+  .portfolio-slides p {
+    font-size: 1.3rem;
+  }
+
+  #portfolio_btn {
+    font-size: 1.23rem;
+    padding: 6px 15px;
+  }
+}

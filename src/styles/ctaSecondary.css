@@ -1,0 +1,66 @@
+#cta_secondary{
+    width: 100%;
+    min-height: 100vh;
+    background-image:url('/src/images/banner2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+   
+}
+
+#cta_secondary_text{
+    height:60%;
+    width:60%;
+    font-size:3.7rem;
+    color: var(--color-neutral-0);
+    font-weight:700;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:start;
+    position:relative;
+    padding-left:5%;
+}
+
+#cta_secondary_text p{
+    margin-left:2vw;
+    margin-bottom:7%;
+    line-height:1.1;
+   
+}
+
+#cta_secondary_text button{
+    font-size:1.02rem;
+    font-weight:400;
+    padding: 9px 28px;
+    cursor: pointer;
+    
+}
+
+
+@media screen and (max-width:900px){
+   
+
+    
+    #cta_secondary_text{
+    gap:60px;
+    width:80%;
+    font-size:2.5rem;
+    }
+
+    #cta_secondary_text p{
+       
+        line-height:1.3;
+        width: 100%;
+
+        }
+    
+
+}
+
+
