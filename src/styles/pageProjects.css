@@ -91,7 +91,7 @@
   max-width: 220px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 499px) {
   #projects {
     height: auto;
     padding-top: 2vh;
@@ -148,21 +148,26 @@
   }
 }
 
-@media (min-width: 701px) and (max-width: 1170px) {
+@media (min-width: 500px) and (max-width: 900px) {
   #content_projects {
     flex-direction: column;
     height: auto;
     padding: 5px 5px 10px 5px;
+
+    width: 90%;
+  }
+  #projects {
+    height: auto;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    width: 100vw;
   }
 
   #content_projects_img {
     width: 100%;
     padding-bottom: 40px;
   }
-  #projects {
-    height: auto;
-    padding-top: 2vh;
-  }
+
   #voltarBtn {
     display: none;
   }
@@ -183,11 +188,18 @@
     height: 39.4vh;
     width: 100%;
   }
-
   #content_projects_text {
-    width: 100%;
-    min-height: 60vh;
+    width: 90%;
+    height: auto;
     justify-content: space-around;
-    padding-left: 20px;
+  }
+  #content_projects_text_1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  #content_projects_text_button {
+    margin-left: 0;
+    margin-bottom: 20px;
   }
 }

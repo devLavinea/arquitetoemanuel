@@ -1,92 +1,73 @@
-
-#featured{
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: space-around;
-    overflow: hidden;
-    padding: 4% 0;
-  
-   
-    
+#featured {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow: hidden;
+  padding: 4% 0;
 }
 
-#featured_low{
+#featured_low {
   display: flex;
   width: 100%;
-  height:70%;
-  padding:1.5% 0; 
+  height: 70%;
+  padding: 1.5% 0;
   justify-content: end;
   align-items: end;
   position: relative;
-  
- 
-  
 }
 
-#featured_low_secondary{
+#featured_low_secondary {
   display: flex;
   width: 85%;
-  height:70%;
+  height: 70%;
   align-items: end;
   position: relative;
-  padding-right:2%;
- 
+  padding-right: 2%;
 }
 
-
-  .featured-projects{
+.featured-projects {
   display: flex;
   position: relative;
   flex-direction: column;
   width: 100%;
   height: 100%;
   justify-content: start;
+}
 
+.featured-projects img {
+  width: 100%;
+  height: 92%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.featured-projects p {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  font-size: 0.95rem;
+  color: var(--color-neutral-1);
+  text-align: start;
+}
+.featured-projects button {
+  position: absolute;
+  z-index: 0;
+  bottom: 13%;
+  align-self: end;
+  margin-right: 9%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  #featured_low {
+    justify-content: center;
   }
 
-  .featured-projects img{
-    width: 100%;
-    height: 92%;
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
+  .featured-projects p {
+    font-size: 1.3rem;
   }
-
-  
-  .featured-projects p{
-  
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-    font-size: 0.95rem;
-    color: var(--color-neutral-1);
-    text-align: start;
-  }
-  .featured-projects button{
-  
-    position: absolute;
-    z-index: 0;
-    bottom:13%;
-    align-self: end;
-    margin-right: 9%;
-    cursor: pointer;
-   
-  }
-
-  @media screen and (max-width:900px){
-   
-    #featured_low{
-      justify-content:center;
-    }
-
-    .featured-projects p{
-      font-size:1.3rem;
-    }
-  
-  }
-  
-
-
+}
