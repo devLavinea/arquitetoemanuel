@@ -6,6 +6,9 @@
   justify-content: start;
   padding-bottom: 10%;
 }
+#provided .line-secondary {
+  height: 200vh;
+}
 
 #provided_content {
   display: flex;

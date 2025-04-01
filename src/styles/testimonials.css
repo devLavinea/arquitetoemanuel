@@ -61,6 +61,9 @@
   align-items: start;
   justify-content: space-around;
 }
+#testimonials_content .line-secondary {
+  display:none;
+}
 
 @media (min-width: 500px) and (max-width: 900px) {
   #testimonials_content {
@@ -68,6 +71,7 @@
   }
   #testimonials_content .line-secondary {
     height: 70vh;
+    display:block;
   }
 
   #testimonials_text {
@@ -115,5 +119,8 @@
   #testimonials_left {
     width: 100%;
     padding-left: 5%;
+  }
+  #testimonials_content .line-secondary {
+    display:block;
   }
 }
