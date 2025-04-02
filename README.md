@@ -1,5 +1,5 @@
 # Arquiteto Manuel Serra
-<img src="src/images/emanuelserra.png" alt="Emanuel Serra" />
+<img src="src/images/manoelserra.png" alt="Manoel Serra" />
 
 **Desenvolvedora Front-End | HTML, CSS, JavaScript**
 
