@@ -1,4 +1,4 @@
-# Arquiteto Manuel Serra
+# Arquiteto Manoel Serra
 <img src="src/images/manoelserra.png" alt="Manoel Serra" />
 
 **Desenvolvedora Front-End | HTML, CSS, JavaScript**
