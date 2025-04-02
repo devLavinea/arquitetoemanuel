@@ -1,5 +1,5 @@
 # Arquiteto Manuel Serra
-<img src="src/images/projeto-emanuelserra.png" alt="Projeto - desktop" />
+<img src="src/images/emanuelserra.png" alt="Projeto - desktop" />
 
 **Desenvolvedora Front-End | HTML, CSS, JavaScript**
 
