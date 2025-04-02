@@ -37,7 +37,7 @@ Para executar o projeto localmente, siga os passos abaixo:
 
 1. **Clone o repositório**:
     ```bash
-    git clone https://github.com/devLavinea/arquiteto-portfolio.git
+    git clone https://github.com/devLavinea/arquiteto-manoel-serra.git
     ```
 
 2. **Abra o projeto no seu editor de código preferido**.
