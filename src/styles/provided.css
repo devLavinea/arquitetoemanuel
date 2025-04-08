@@ -100,10 +100,16 @@ button {
 @media screen and (max-width: 499px) {
   #provided {
     flex-direction: column;
+  
+    height: auto;
+  }
+  #provided .line-secondary {
+    height: 90vh;
   }
 
   #provided_content {
     width: 90%;
+    height: auto;
   }
 
   #provided_text {
@@ -112,7 +118,7 @@ button {
   }
 
   #provided_list {
-    margin-top: 95vh;
+    margin-top: 90vh;
     margin-left: 35px;
     position: absolute;
     width: 90%;
