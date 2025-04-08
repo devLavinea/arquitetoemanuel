@@ -1,20 +1,21 @@
-# Arquiteto Manuel Serra
+# Arquiteto Manoel Serra
+<img src="src/images/manoelserra.png" alt="Manoel Serra" />
 
 **Desenvolvedora Front-End | HTML, CSS, JavaScript**
 
-Este projeto consiste na criação de um **site de portfólio para o arquiteto Manuel Serra**, com o objetivo de apresentar seus projetos, serviços, depoimentos de clientes e fornecer um meio de contato para novos projetos. O site foi desenvolvido utilizando **HTML**, **CSS**, e **JavaScript**, garantindo uma navegação intuitiva, responsiva e otimizada para dispositivos móveis e desktop.
+Este projeto consiste na criação de um **site de portfólio para o arquiteto Manoel Serra**, com o objetivo de apresentar seus projetos, serviços, depoimentos de clientes e fornecer um meio de contato para novos projetos. O site foi desenvolvido utilizando **HTML**, **CSS**, e **JavaScript**, garantindo uma navegação intuitiva, responsiva e otimizada para dispositivos móveis e desktop.
 
 ## Visite o Site
 
 Confira o projeto ao vivo acessando o link abaixo:
 
-[Visite o Portfólio de Manuel Serra](https://arquiteto-emanuel.vercel.app/)
+[Visite o Portfólio de Manoel Serra](arquitetomanoelserra.vercel.app/)
 
 ## Sobre o Projeto
 
-Este projeto foi criado para apresentar o portfólio e os serviços de Manuel Serra, arquiteto renomado, permitindo que os clientes conheçam seus projetos passados, serviços oferecidos e entrem em contato facilmente. As principais funcionalidades incluem:
+Este projeto foi criado para apresentar o portfólio e os serviços de Manoel Serra, arquiteto renomado, permitindo que os clientes conheçam seus projetos passados, serviços oferecidos e entrem em contato facilmente. As principais funcionalidades incluem:
 
-- **Sobre o Arquiteto Manuel Serra**: Seção que apresenta a trajetória, filosofia e abordagem de trabalho do arquiteto.
+- **Sobre o Arquiteto Manoel Serra**: Seção que apresenta a trajetória, filosofia e abordagem de trabalho do arquiteto.
 - **Projetos em Destaque**: Apresentação de projetos de destaque com links para suas respectivas descrições detalhadas.
 - **Serviços**: Descrição dos serviços oferecidos, como planejamento arquitetônico, design de interiores, consultoria e mais.
 - **Depoimentos**: Seção com feedbacks de clientes anteriores, destacando a experiência com os serviços prestados.
@@ -36,7 +37,7 @@ Para executar o projeto localmente, siga os passos abaixo:
 
 1. **Clone o repositório**:
     ```bash
-    git clone https://github.com/devLavinea/arquiteto-portfolio.git
+    git clone https://github.com/devLavinea/arquiteto-manoel-serra.git
     ```
 
 2. **Abra o projeto no seu editor de código preferido**.
@@ -46,7 +47,7 @@ Para executar o projeto localmente, siga os passos abaixo:
 ## Funcionalidades
 
 - **Sobre o Arquiteto**: Apresenta informações sobre a trajetória e abordagem de trabalho do arquiteto.
-- **Projetos em Destaque**: Destaque para alguns dos projetos mais representativos de Manuel Serra.
+- **Projetos em Destaque**: Destaque para alguns dos projetos mais representativos de Manoel Serra.
 - **Serviços**: Expõe os serviços de arquitetura, design de interiores, e mais.
 - **Depoimentos**: Feedback de clientes anteriores, mostrando a experiência de trabalhar com o arquiteto.
 - **Formulário de Contato**: Permite que os clientes entrem em contato diretamente com o arquiteto.
